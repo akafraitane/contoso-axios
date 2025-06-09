@@ -41,7 +41,7 @@ jobs:
             npm version --no-git-tag-version "$version"
           else
             echo "Version already set to $version, skipping npm version."
-          fi 
+          fi
 
       - name: Publish to GitHub npm registry
         env:
